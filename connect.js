@@ -33,7 +33,7 @@ app.listen(puerto, function () {
 });
 
 //El contrato entre el servidor y el cliente para permitir la inserción de registros en la tabla
-app.post("/api/contactanos", (req, res) => {
+app.post("/api/CONTACTANOS", (req, res) => {
     console.log('datos : ', req.body);
     let data = {
         nomcon: req.body.nombre,
